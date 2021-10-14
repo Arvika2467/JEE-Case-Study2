@@ -1,0 +1,9 @@
+server:
+  port: 4010
+  
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:4010/eureka
